@@ -61,10 +61,56 @@ table content
 
 
 
+
 */
 /*--------------------  
 //
 --------------------*/
+
+
+
+.center {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 15px;
+  /* height:10px,10px,10px,10px; */
+  width:70%;
+  /* opacity: 10; */
+}
+.pic {
+  position:absolute;
+  width: 150% ;
+  opacity: 0.2;
+  /* margin:auto; */
+  /* display:block; */
+  bottom:30%;
+  /* top: 5%;  */
+   right:15%;
+  /* transform:translate(-50%,-50%);  */
+/* justify-content: center; */
+}
+
+
+.main-service-area .mainservice-slide .single-service .service-icon span {
+  
+  width: 90px;
+  height: 90px;
+  line-height: 60px;
+  -webkit-border-radius: 70%;
+  -moz-border-radius: 70%;
+  -ms-border-radius: 70%;
+  -o-border-radius: 70%;
+  border-radius: 70%;
+  border: 3px solid #09c48c;
+  display: block;
+  margin: 0 auto;
+  background:white (213, 255, 245, 0.6);
+  
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
 *:focus {
   outline: 0;
   box-shadow: none;
