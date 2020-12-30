@@ -1,0 +1,503 @@
+/*!
+Template Name: Onix Corporate/Business Agency and Portfolios HTML Template 
+Template URI: https://themeforest.net/user/smartit-source
+Author: smartit-source
+Author URI: https://themeforest.net/user/smartit-source
+Description:Onix Corporate/Business Agency and Portfolios HTML Template    HTML is the Template which design and development for Corporate/Business Agency responsive template.
+Version : 1
+ */
+
+// Core variables and mixins
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@media only screen and (max-width: 1400px){
+	.control-round .carousel-control{
+		top:92%;
+	}
+
+}
+@media only screen and (max-width: 1200px){
+    .header-area .menu-area .main-menu ul li a {
+		padding:14px 10px;
+	}
+	.control-round .carousel-control{
+		top:90%;
+	}
+	.section-title {
+		width: 70%;
+	}
+	.banner-two-area{
+		padding:100px 0;
+	}
+	.blog-list-wrapper .blog-list-area .single-blog .blog-info {
+		padding: 10px 0;
+	}
+	.blog-list-wrapper .blog-list-area .single-blog .blog-info .blog-title h3{
+		margin-bottom:15px;
+	}
+	.blog-list-wrapper .blog-list-area .single-blog .blog-info .blog-meta {
+		margin-bottom: 10px;
+	}
+	.single-post-wrapper .single-post-area .single-post .blog-title h2 {
+		font-size: 26px;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 1024px){
+    .header-area{
+		display:none;
+	}
+	.mean-container .mean-bar{
+		position: absolute;
+		background: #000000;
+		
+	}
+	.meanmenu-reveal.meanclose{
+		right:0;
+	}
+	.banner-area .banner-content {
+		width: 100%;
+	}
+	.banner-area.home-one{
+		padding-top: 155px;
+	}
+	.breadcrumb-area {
+		padding-bottom: 110px;
+	}
+}
+@media only screen and (max-width: 991px){
+	.control-round .carousel-control{
+		top:87%;
+	}
+	.section-title {
+		width: 80%;
+	}
+	.banner-area .banner-content .banner-text h1 {
+		font-size: 32px;
+		line-height: 42px;
+	}
+	.aboutus-area .about-img .about-video{
+		left:0;
+		right:0;
+		margin: 0 auto;
+	}
+	.testimonial-area .testimonial-slide .single-tstimonial{
+		margin-left:0px;
+		margin-bottom: 1px;
+	}
+	.counter-area .single-counter{
+		border:1px solid $brand-primary;
+		padding:30px 20px;
+		margin-top: 30px;
+	}
+	.counter-two-area .single-counter{
+		border:1px solid $brand-primary;
+		padding:30px 20px;
+		margin-top: 30px;
+	}
+	.counter-two-area{
+		padding-top: 70px;
+	}
+	.counter-area {
+		padding-top: 70px;
+	}
+	.price-area .single-price.mt-30 {
+		margin-top: 0px;
+	}
+	.price-area .single-price{
+		margin-bottom:50px;
+	}
+	.price-area.section{
+		padding-bottom:70px;
+	}
+	.blog-left{
+		margin-bottom:30px;
+	}
+	.servicetwo-area .single-service {
+		margin-bottom: 50px;
+	}
+	.aboutus-two-area .about-content .about-info{
+		padding-left:0;
+	}
+	.aboutus-two-area{
+		background:#f4f6f7;
+	}
+	.aboutus-two-area .about-content .about-video{
+		position: relative;
+		width:72vw;
+		right: 0;
+		top:100%;
+		transform: translateY(15%);
+	}
+	.aboutus-two-area {
+		padding-bottom: 132px;
+	}
+	.aboutus-two-area .about-content .about-info h2 {
+		line-height: 28px;
+	}
+	.team-area .single-team{
+		margin-bottom:50px;
+	}
+	.testimonial-area .testimonial-slide{
+		margin-top:30px;
+	}
+	.team-area.section {
+		padding-bottom: 50px;
+	}
+	.banner-two-area .banner-img {
+		width: 50%;
+	}
+	.banner-two-area {
+		padding-top:145px;
+	}
+	.service-three-area .single-service {
+		margin-bottom: 50px;
+	}
+	.service-three-area.section {
+		padding-bottom: 50px;
+	}
+	.aboutus-three-area .video-area {
+		padding-top: 0;
+		border:1px solid $brand-primary;
+		padding:50px;
+		margin-bottom: 100px;
+	}
+	.team-two-area .single-team{
+		margin-bottom: 50px;
+	}
+	.team-two-area {
+		padding-bottom:50px;
+	}
+	.aboutus-three-area{
+		background: #f4f6f7;
+	}
+	.counter-testimonial-area{
+		background: $brand-primary;
+	}
+	.counter-testimonial-area .testimonial-counter .single-counter{
+		margin-bottom: 50px;
+		border: 1px solid #ffffff;
+		padding: 35px 30px 30px 30px ;
+	}
+	.counter-testimonial-area .testimonial-counter .single-counter.three {
+		margin-bottom: 50px;
+	}
+	.counter-testimonial-area .testimonial-counter .single-counter.four {
+		margin-bottom: 50px;
+	}
+	.counter-testimonial-area .testimonial-section{
+		padding-left: 0;
+	}
+	.footer-area .footer-bottom .footer-socialmedia {
+		text-align: center;
+		margin-top: 30px;
+	}
+	.footer-area .copyright-area {
+		text-align: center;
+	}
+	.footer-area .footer-bottom .footer-socialmedia li{
+		margin-left:0;
+		margin-right: 10px;
+	}
+	.footer-area .footer-top .single-widget .widget-title h3{
+		margin-top:30px;
+	}
+	.counter-testimonial-area .testimonial-section .testimonial-three-slide .single-tstimonial .clint-info .media .media-body .media-heading a:hover{
+		color:#ffffff;
+	}
+	.partner-sucess-content .counter-list .single-counter{
+		text-align: center;
+		border:1px solid $brand-primary;
+		padding:30px 0;
+	}
+	.about-page-wrapper .team-member-area .single-team{
+		margin-bottom: 50px;
+	}
+	.about-page-wrapper .team-member-area{
+		padding-bottom: 50px;
+	}
+	.plan-img {
+		margin-top: 20px;
+	}
+	.newsletter-img {
+		margin-bottom: 30px;
+	}
+	.servicetwo-page-wrapper .team-member-area .team-slide .owl-controls{
+		display: none;
+	}
+	.single-services-page-wrapper .work-two-area .service-list .single-service{
+		margin-bottom:30px;
+		border:1px solid $brand-primary;
+		padding:35px 10px 30px 10px;
+	}
+	.single-services-page-wrapper .work-two-area{
+		padding-bottom: 70px;
+	}
+	.single-services-page-wrapper .work-two-area .service-list .single-service::after {
+		display: none;
+	}
+	.website-seo-img {
+		margin-bottom: 30px;
+	}
+	.pricing-page-wrapper .single-price.mt-50 {
+		margin-top: 0px;
+	}
+	.pricing-page-wrapper .single-price{
+		margin-bottom: 50px;
+	}
+	.price-tabile.section {
+		padding-bottom: 50px;
+	}
+	.newsletter-area .newsletter-form form .from-grupe {
+		width: 100%;
+	}
+	.faq-page-wrapper .faq-page-area .nav-tabs {
+		margin-bottom: 50px;
+	}
+	.blog-list-wrapper .blog-list-area .single-blog .blog-info{
+		padding: 45px 30px;
+   		
+	}
+	.blog-list-wrapper .blog-list-area .single-blog .blog-info .blog-title h3 {
+		margin-bottom: 20px;
+	}
+	.blog-list-wrapper .blog-list-area .single-blog .blog-info .blog-meta {
+		margin-bottom: 15px;
+	}
+	.contact-page-wrapper .contact-area .form-right {
+		margin-top: 30px;
+	}
+}
+@media (max-width: 768px) {
+	.section-title {
+		width: 100%;
+	}
+	.portfolio-area .portfolio .filtering-button a{
+		padding:5px;
+		margin: 0 5px;
+	}
+	.portfolio-area .portfolio .filtering-button {
+		height: 40px;
+	}
+	.Projects-page-wrapper .portfolio-list .portfolio .filtering-button{
+		height: 40px;
+	}
+	.Projects-page-wrapper .portfolio-list .portfolio .filtering-button a{
+		padding:5px;
+		margin: 0 5px;
+	}
+	.Projects-ful-wide-wrapper .portfolio-list .portfolio .filtering-button{
+		height: 40px;
+	}
+	.Projects-ful-wide-wrapper .portfolio-list .portfolio .filtering-button a{
+		padding:5px;
+		margin: 0 5px;
+	}
+	.carousel-inner{
+		margin-top: 40px;
+	}
+	.aboutus-two-area .about-content .about-video {
+		width: 90vw;
+	}
+	.banner-two-area {
+		padding-top: 100px;
+		padding-bottom: 54px;
+	}
+	.partner-sucess-content .counter-list .single-counter{
+		margin-bottom: 40px;
+
+	}
+	.partner-sucess-content .counter-list .single-counter.last{
+		margin-bottom: 0px;
+	}
+	.servicetwo-page-wrapper .team-member-area .team-slide .single-team {
+		margin-bottom: 1px;
+	}
+}
+@media only screen and (max-width: 767px){
+    .bannder-img {
+		margin-top: 30px;
+	}
+	.banner-two-area .banner-img{
+		position: inherit;
+		margin-top: 30px;
+		width:100%;
+	}
+}
+@media (max-width: 600px){
+	.blog-list-wrapper .blog-list-area .single-blog .blog-info .blog-meta ul li {
+		margin-right: 20px;
+	}
+}
+@media (max-width: 480px) {
+    .banner-area.home-one {
+		padding-top: 115px;
+	}
+	.blog-area .blog-left .single-blog .blog-title h3 {
+		font-size: 18px;
+	}
+	.blog-area .recent-post .single-post .media .media-body .media-heading a {
+		font-size: 18px;
+	}
+	.newsletter-area .newsletter-form form .from-grupe .newsletter-btn{
+		padding:0 20px;
+	}
+	.blog-list-wrapper .blog-list-area .single-blog .blog-info .blog-meta ul li {
+		margin-right: 10px;
+	}
+	.single-post-wrapper .single-post-area .single-post .blog-meta ul li{
+		margin:0;
+		margin-right:5px;
+	}
+	.single-post-wrapper .single-post-area .single-post .blog-meta ul li a{
+		font-size:12px;
+	}
+	.single-post-wrapper .single-post-area .single-post .blog-meta ul li a span{
+		margin-right: 5px;
+	}
+	.single-post-wrapper .single-post-area .single-post .blog-meta{
+		text-align: left;
+	}
+	.single-post-wrapper .single-post-area .other-post-area .social-media ul li {
+		margin: 0 5px;
+	}
+	.single-post-wrapper .single-post-area .quote-area .quote-content {
+		padding: 30px 20px 37px 20px;
+	}
+	.single-post-wrapper .single-post-area .single-post .blog-meta ul {
+		text-align: center;
+	}
+}
+@media (max-width: 460px) {
+    .blog-area .recent-post .single-post .media .media-left {
+		float: none;
+		padding-right: 0;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.media-left, .media-right, .media-body {
+		display: block;
+		width: 100%;
+	}
+	.blog-area .recent-post .single-post .media .media-left img{
+		width:100%;
+	}
+	.counter-testimonial-area .testimonial-section .testimonial-three-slide .single-tstimonial{
+		margin-bottom: 1px;
+	}
+	.single-post-wrapper .single-post-area .other-post-area .social-media ul li {
+		margin: 0 5px;
+	}
+}
+@media (max-width: 420px) {
+	.aboutus-area .about-img .about-video {
+		width: 200px;
+		height: 180px;
+		padding: 10px ;
+	}
+	.aboutus-area .about-img .about-video p{
+		margin-bottom:0px;
+	}
+	.aboutus-area .about-img .about-video h3 {
+		font-size: 16px;
+		line-height: 26px;
+		margin-bottom: 10px;
+	}
+	.aboutus-area .about-img .about-video .play-btn {
+		margin-bottom: 10px;
+	}
+	.blog-list-wrapper .blog-list-area .single-blog .blog-info .blog-meta ul li {
+		display: block;
+	}
+	.contact-page-wrapper .contact-area .form-right ul li {
+		padding-left: 30px;
+	}
+	.contact-page-wrapper .contact-area .form-right {
+		padding: 70px 20px;
+	}
+
+}
+@media (max-width: 376px) {
+	.portfolio-area .portfolio .filtering-button {
+		height: 86px;
+	}
+	.portfolio-area .portfolio .filtering-button a {
+		margin-bottom: 10px;
+	}
+	.Projects-page-wrapper .portfolio-list .portfolio .filtering-button{
+		height: 86px;
+	}
+	.Projects-page-wrapper .portfolio-list .portfolio .filtering-button a{
+		margin-bottom: 10px;
+	}
+	.Projects-ful-wide-wrapper .portfolio-list .portfolio .filtering-button{
+		height: 86px;
+	}
+	.Projects-ful-wide-wrapper .portfolio-list .portfolio .filtering-button a{
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 375px) {
+	.aboutus-two-area .about-content .about-video {
+		width: 91vw;
+	}
+	.servicetwo-page-wrapper .team-member-area .team-slide .single-team .team-img .team-overlay .team-info .team-img img {
+		width: 80px;
+		height: 80px;
+		line-height: 80px;
+	}
+	.servicetwo-page-wrapper .team-member-area .team-slide .single-team .team-img .team-overlay .team-info .team-img {
+		margin-bottom: 15px;
+	}
+	.servicetwo-page-wrapper .service-two-area .single-service .service-img .service-overlay .service-info .service-icon span {
+		display: block;
+		width: 115px;
+		height: 45px;
+		line-height: 45px;
+
+	}
+	.servicetwo-page-wrapper .service-two-area .single-service .service-img .service-overlay .service-info .service-icon {
+		margin-bottom: 15px;
+	}
+	.servicetwo-page-wrapper .service-two-area .single-service .service-img .service-overlay .service-info .service-tite h3 {
+		margin-bottom: 10px;
+	}
+	.team-two-page-wrapper .team-member-area .single-team .team-img .team-overlay .team-info .team-img img{
+		width: 80px;
+		height: 80px;
+		line-height: 80px;
+	}
+	.team-two-page-wrapper .team-member-area .single-team .team-img .team-overlay .team-info .team-img{
+		margin-bottom: 15px;
+	}
+	.blog-list-wrapper .blog-list-area .single-blog .blog-info .blog-title h3{
+		font-size:16px;
+	}
+	.blog-grid-wrapper .blog-grid-area .single-blog .blog-info .blog-title h3 {
+		font-size: 16px;
+	}
+	.single-post-wrapper .single-post-area .single-post .blog-title h2 {
+		font-size: 22px;
+	}
+	.single-post-wrapper .related-blog-area .single-blog .blog-info .blog-title h3 {
+		font-size: 16px;
+	}
+	
+}
+@media (max-width: 320px) {
+    .aboutus-area .about-img .about-video {
+		height: 165px;
+	}
+	.service-page-wrapper .service-area .single-service {
+		padding: 47px 15px 40px 15px;
+	}
+	.single-services-page-wrapper .relatet-service .single-service{
+		padding: 47px 15px 40px 15px;
+	}
+	.contact-page-wrapper .contact-area .form-right ul li {
+		font-size: 13px;
+	}
+}
+
+
