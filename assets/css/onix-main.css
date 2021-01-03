@@ -66,7 +66,11 @@ table content
 /*--------------------  
 //
 --------------------*/
+/* body {
+  background:url(../../assets/images/gif.gif);
+  opacity: 0.1; */
 
+/* } */
 #creative{
 color:rgb(14, 200, 113);
 margin-top:20%;
@@ -166,7 +170,10 @@ head {
 .......................................*/
 html,
 body {
-  background-color:gainsboro
+  background-color:#f9f9f9;
+}
+body {
+  /* background-color:#faf6f6; */
   height: 100%;
   font-size: 15px;
   color: #212d31;
@@ -174,6 +181,7 @@ body {
   vertical-align: baseline;
   line-height: 26px;
   font-weight: 400;
+  
 }
 
 .floatleft {
@@ -841,7 +849,7 @@ ul {
   -o-border-radius: 50%;
   border-radius: 50%;
   border: 5px solid #e3e3e3;
-  background: #ffffff;
+  background:#f9f9f9;
   text-align: center;
   -webkit-transition: all 300ms;
   -o-transition: all 300ms;
@@ -942,7 +950,7 @@ ul {
 /*---------------------------
 -----------------------------*/
 .counter-area {
-  background: #f4f6f7;
+  background: #14a4ec;
 }
 .counter-area .single-counter {
   margin-top: 10px;
