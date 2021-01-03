@@ -109,6 +109,13 @@ table content
   
 }
 
+#sticky {
+  background:url(../../assets/images/finger.jpg);
+}
+head {
+  background-color: #d5fef2;
+}
+
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 *:focus {
@@ -392,7 +399,7 @@ ul {
 .header-area .menu-area .main-menu ul li a {
   display: block;
   font-size: 16px;
-  color: #333;
+  color:#09c48c;
   font-weight: 400;
   text-transform: uppercase;
   padding: 40px 13px;
@@ -1515,7 +1522,7 @@ ul {
 /*---------------------------
 -----------------------------*/
 .counter-two-area {
-  background: url(../../assets/images/counter/bg.jpg);
+  background: url(../../assets/images/counter/kidy.jpg);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
