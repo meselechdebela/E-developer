@@ -108,6 +108,39 @@ table content
   background:white (213, 255, 245, 0.6);
   
 }
+#we{
+  top: 50%;
+}
+#team {
+  color: orange;
+  font-size: 200%;
+}
+#slid2{
+ 
+  font-size: 300%;
+}
+#hello{
+  color: white;
+}
+#ed {
+  
+  color:linen(19, 142, 243);
+  font-size:400%;
+}
+
+.color-main2 {
+  color:greenyellow;
+  font-size: 200%;
+  
+}
+.color-main3{
+  color: yellow;
+  font-size: 200%;
+}
+.color-main4{
+  color: lightskyblue;
+  font-size: 200%;
+}
 
 #sticky {
   background:url(../../assets/images/finger.jpg);
@@ -129,6 +162,7 @@ head {
 .......................................*/
 html,
 body {
+  background-color:gainsboro
   height: 100%;
   font-size: 15px;
   color: #212d31;
