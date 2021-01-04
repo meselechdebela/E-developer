@@ -71,9 +71,14 @@ table content
   opacity: 0.1; */
 
 /* } */
+#dream {
+  color:yellow;
+  font-size: 200%;
+  bottom: 20%;
+}
 #creative{
-color:rgb(14, 200, 113);
-margin-top:20%;
+color:rgb(63, 226, 255);
+margin-top:10%;
 
 }
 
