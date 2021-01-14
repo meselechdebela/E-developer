@@ -514,7 +514,7 @@ ul {
 }
 .header-area .menu-area .main-menu ul li.sub .sub-menu li:hover a {
   color: #09c48c;
-  padding-left: 25px;
+  padding-left: 15px; 
 }
 .header-area .support-area {
   margin: 25px;
@@ -633,7 +633,7 @@ ul {
 .btn-primary {
   background: #09c48c;
   border: 0 none;
-  color: #ffffff;
+  color: #131010;
   display: inline-block;
   font-size: 15px;
   font-weight: 600;
