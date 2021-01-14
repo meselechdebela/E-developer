@@ -546,14 +546,16 @@ ul {
 -----------------------------*/
 .footer-area .footer-top {
   background: #162336;
-  padding-bottom: 90px;
+  /* padding-bottom: 90px; */
   /* margin-top: 2px; */
 }
  
 .footer-area .footer-top .single-widget .footer-log {
-  margin-bottom: 24px;
-   height: 70px;
-   width: 70px;
+   margin-bottom: 60%; 
+   height: 150px;
+   width: 150px;
+   margin-left: 150%;
+
 } 
 .footer-area .footer-top .single-widget .widget-title h3 {
   font-size: 20px;
