@@ -526,7 +526,32 @@ ul {
   background: #162336;
   padding-bottom: 90px;
   /* margin-top: 2px; */
-}
+  
+    /* float: left;
+    width: 0.7em;
+    font-size: 400%;
+    font-family: algerian, courier;
+    line-height: 80%; */
+  }
+ 
+  .widget-content {
+    margin-left: 150%;
+    width: 100%;
+    
+
+  
+ }
+ .contact-info {
+   margin-left: 200%;
+   width: 100%;
+  }
+ /* .span {
+  float: left;
+  width: 0.7em;
+  font-size: 400%;
+  font-family: algerian, courier;
+  line-height: 80%; 
+}  */
  
 .footer-area .footer-top .single-widget .footer-log {
   margin-bottom: 24px;
@@ -539,12 +564,30 @@ ul {
   font-weight: 600;
   text-transform: uppercase;
 }
-.footer-area .footer-top .single-widget .widget-content p {
+ /* .single-widget text-widget{
+    background-image: url(../images/services/fsaf1.jpg) 
+  
+  } */
+
+.footer-area .footer-top .single-widget  {
   font-size: 15px;
   font-weight: 400;
   color: #c6c6c6;
   line-height: 26px;
   margin-bottom: 13px;
+}
+.widget-content p{
+  /* font-size: 15px;
+  font-weight: 400;
+  color: #c6c6c6;
+  line-height: 26px;
+  margin-bottom: 13px;
+  margin-left: 50%; 
+  text-align: center;
+  text-align: left;
+  text-align: right;
+  text-align: justify; */
+  margin: auto;
 }
 .footer-area .footer-top .single-widget .widget-content .contact-info p {
   font-size: 15px;
