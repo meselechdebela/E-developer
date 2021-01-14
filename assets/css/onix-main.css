@@ -71,6 +71,28 @@ table content
   opacity: 0.1; */
 
 /* } */
+
+
+ #serv{
+  background: #09c48c;
+  border: 0 none;
+  color: #131010;
+  /* display: inline-block; */
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px 45px;
+  text-transform: uppercase;
+  -webkit-transition: all 300ms;
+  -o-transition: all 300ms;
+  transition: all 300ms;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+
+}
 #logo2{
   width: 70%;
 }
@@ -631,11 +653,13 @@ ul {
 /*---------------------------
 -----------------------------*/
 .btn-primary {
+  margin-top: 20%;
+  margin-left: 280%;
   background: #09c48c;
   border: 0 none;
   color: #131010;
   display: inline-block;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
   padding: 12px 45px;
   text-transform: uppercase;
@@ -650,7 +674,7 @@ ul {
   text-decoration: none;
 }
 .btn-primary:hover {
-  background: #039d6f;
+  /* background: #039d6f; */
 }
 
 .btn_one {
