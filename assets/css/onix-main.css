@@ -8,7 +8,7 @@ Version : 1
 
 table content
 1.header area start here
-2.footer area start here
+2.footer area start heref
 3.btn-primary
 4.banner-area
 5.services-area
@@ -179,7 +179,7 @@ head {
 html,
 body {
   background-color:#f9f9f9;
-  background-image:url(../../assets/images/side-shadows-320-art-paper-115630368428fkxammvo0.png) ;
+  /* background-image:url(../../assets/images/side-shadows-320-art-paper-115630368428fkxammvo0.png) ; */
 }
 body {
   /* background-color:#faf6f6; */
@@ -1811,7 +1811,7 @@ ul {
 /*---------------------------
 -----------------------------*/
 .aboutus-three-area {
-  background: url(../../assets/images/about/about3-bg.jpg);
+  background: url(../images/banner/contact3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: Center center;
@@ -2037,7 +2037,7 @@ ul {
 -----------------------------*/
 .breadcrumb-area {
   padding: 155px 0;
-  background: url(../images/services/pexels-pixabay-256381\ \(1\)\ -\ Copy.jpg);
+  background: url(../images/banner/contact3.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3752,7 +3752,7 @@ ul {
   overflow: hidden;
 }
 .contact-page-wrapper .google-map-area {
-  padding-top: 100px;
+  padding-top: 10px;
 }
 .contact-page-wrapper .google-map-area .google-map #gmap {
   height: 400px;
