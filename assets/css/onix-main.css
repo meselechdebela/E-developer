@@ -557,11 +557,19 @@ ul {
   padding-top: 0px;
   /* margin-top: 2px; */
 }
- 
 /* .footer-area .footer-top .single-widget .footer-log {
   margin-bottom: 24px;
    height: 70px;
-   width: 70px;
+   width: 70px
+  /* padding-bottom: 90px; */
+  /* margin-top: 2px; */
+}
+ 
+.footer-area .footer-top .single-widget .footer-log {
+   margin-bottom: 60%; 
+   height: 150px;
+   width: 150px;
+   margin-left: 150%;
 } 
  .footer-area .footer-top .single-widget .widget-title h3 {
   font-size: 20px;
