@@ -73,7 +73,7 @@ table content
 /* } */
 
 #roww{
-  width: 25%;
+  width: 15%;
   margin-left: 35%;
 }
 
@@ -651,7 +651,7 @@ ul {
   right: 150px;
   display:inline-flex;
   margin-left: 60%;
-  font-size:xx-large;
+  font-size:large;
   margin-bottom: 0;
   float: left;
   /* position: relative; */
