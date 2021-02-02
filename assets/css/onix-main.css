@@ -549,6 +549,11 @@ ul {
 .header-area .support-area {
   margin: 25px;
 }
+.support{
+color: #09c48c;
+padding-top: 27%;
+float: right;
+}
 
 /*---------------------------
 -----------------------------*/
@@ -876,6 +881,12 @@ ul {
   font-size: 15px;
   color: #212d31;
   line-height: 26px;
+}
+.service-name{
+  color: #09c48c;
+}
+.service{
+  color: #09c48c; 
 }
 
 /*---------------------------
