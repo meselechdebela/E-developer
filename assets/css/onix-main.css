@@ -73,6 +73,7 @@ table content
 
 /* } */
 
+
 #roww{
   width: 15%;
   margin-left: 45%;
@@ -2184,7 +2185,7 @@ ul {
   position: relative;
   z-index: 1;
 }
-.about-page-wrapper .work-area .single-work .work-title h3 {
+.about-page-wrapper .work-area .single-work .work-title h2 {
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
@@ -4118,7 +4119,7 @@ ul {
 .newsletter-area .newsletter-content h2 {
   font-size: 32px;
   line-height: 48px;
-  color: #212d31;
+  color: #09c48c;
   font-weight: 600;
   text-transform: capitalize;
   margin-bottom: 20px;
